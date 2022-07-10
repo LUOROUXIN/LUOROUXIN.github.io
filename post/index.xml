@@ -13,7 +13,7 @@
       <pubDate>Sun, 10 Jul 2022 17:42:16 +0800</pubDate>
       
       <guid>https://LUOROUXIN.github.io/post/hugo_article_steps/</guid>
-      <description> 截图软件下载: &amp;ldquo;zh.snipaste.com/download.html&amp;rdquo; 截图快捷键 alt + s 使用一个免费图传 hugo 写作与发布步骤 进入hugo 文件夹，文件夹中右键打开git终端 hugo new post/xxxx.md 例如：hugo new post/hugo_article_steps.md 然后编辑该文件，正如本文所写的 文中的图片已经上传图传 </description>
+      <description> 截图软件下载: &amp;ldquo;zh.snipaste.com/download.html&amp;rdquo; 截图快捷键 alt + s 使用一个免费图传网站 聚合图床 - 免费无限图片上传 (superbed.cn) 微信登录的 使用本地图片 hugo 写作与发布步骤 进入hugo 文件夹，文件夹中右键打开git终端 hugo new post/xxxx.md 例如：hugo new post/hugo_article_steps.md 然后编辑该文件，正如本文所写的 文中的图片已经上传图传 更新hugo public 文件夹（该文件夹发布到github，里面是生成的静态网页） 命令： hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://LUOROUXIN.github.io&amp;rdquo; &amp;ndash;buildDrafts 进入public 文件夹，更新git仓库 public 文件夹 是一个git仓库， 并且以关联远程github仓库：https://github.com/LUOROUXIN/LUOROUXIN.github.io 命令： cd public/ 查看git 状态：git status 添加当前文件夹所有文件：git add ./* 将更改提交git 本地：git commit -m &amp;quot;新增文件：post/hugo_article_steps.md&amp;quot; 将本地public 仓库同步到远程github 仓库 git push origin main 查看远程github 主页 Deployments · LUOROUXIN/LUOROUXIN.github.io </description>
     </item>
     
     <item>
